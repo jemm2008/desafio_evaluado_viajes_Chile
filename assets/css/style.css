@@ -18,6 +18,21 @@
     border: 1px solid blue;
     }
 
+#quiensomos {
+    background-color: black;
+}
+
+.fa_icon {
+    background-color: #0ecaf1;
+    text-align: center;
+}
+
+.linealarga {
+    height: 1px;
+    width: 90%;
+    display: inline-block;
+    background-color: rgb(15, 15, 15);
+}
 /*
 .navbar-toggler .navbar-toggler-icon{
     width: 19px !important;
