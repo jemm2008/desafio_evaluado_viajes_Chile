@@ -38,7 +38,7 @@
 
 }
 
-.card, button.btn {
+.card, button.btn, footer div.container-fluid {
     border: 2px solid gray !important;
     background-color: #0ecaf1 !important;
 }
