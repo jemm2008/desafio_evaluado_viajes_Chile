@@ -1,0 +1,32 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    }
+
+.gggg {
+    border: 1px solid green;
+    }
+
+.rrrr {
+    border: 1px solid red;
+    }
+
+.bbbb {
+    border: 1px solid blue;
+    }
+
+/*
+.navbar-toggler .navbar-toggler-icon{
+    width: 19px !important;
+    height: 19px !important;
+
+    
+#0ECAF1
+HEX
+#0ecaf1
+}
+*/
+
