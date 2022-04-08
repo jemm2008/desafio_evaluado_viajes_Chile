@@ -15,18 +15,6 @@ html {
     }
 
 
-.gggg {
-    border: 1px solid green;
-    }
-
-.rrrr {
-    border: 1px solid red;
-    }
-
-.bbbb {
-    border: 1px solid blue;
-    }
-
 #quiensomos, #destacados, #contacto {
     background-color: black;
 }
@@ -73,4 +61,17 @@ html {
     border-bottom-color: orangered !important;
 }
 
+/* Mis Clases para maquetación durante el desarrollo 
+.gggg {
+    border: 1px solid green;
+    }
 
+.rrrr {
+    border: 1px solid red;
+    }
+
+.bbbb {
+    border: 1px solid blue;
+    }
+
+*/
