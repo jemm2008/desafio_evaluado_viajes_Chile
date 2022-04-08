@@ -35,7 +35,7 @@ html {
 
 }
 
-.card, button.btn, footer div.container-fluid {
+.card, button.btn, footer div.container-fluid, .barra_turquesa {
     border: 2px solid gray !important;
     background-color: #0ecaf1 !important;
 }
@@ -61,7 +61,7 @@ html {
     border-bottom-color: orangered !important;
 }
 
-/* Mis Clases para maquetación durante el desarrollo 
+/* Mis Clases para uso durante el desarrollo  */
 .gggg {
     border: 1px solid green;
     }
@@ -74,4 +74,3 @@ html {
     border: 1px solid blue;
     }
 
-*/
