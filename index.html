@@ -8,22 +8,23 @@
         <meta name="keywords" content="write keywords for search engines, "><!-- Palabras clave para motores de búsqueda -->
         <meta name="author" content="Juan Enrique Malaver Maldonado">       <!-- Autor quien hizo el sitio/página WEB-->
         <link rel="icon" type="image/png" href="assets/img/logoxxxx.jpg" >  <!-- Favicon -->
-        <!-- Importar fuente de google fonts -->
+<!-- Importar fuente de google fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <!-- Importar FONT Awesome -->
+<!-- Importar FONT Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">                 <!-- link a hoja de estilos CSS-->
-        <!-- título a mostrar en pestaña del Navegador-->
+<!-- título a mostrar en pestaña del Navegador-->
         <title>Viajes Chile</title>
-        <!-- JQuery from STACKPATH CDN -->
+<!-- JQuery from STACKPATH CDN -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <!-- Bootstrap CSS -->
+<!-- Integración del CDN Bootstrap-->
+<!-- En esta página se usa BootsTrap versión v5.1.3 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
 
     <body>
         <header id="header">
-<!-- NAVBAR, Bootstrap Component_01 -->
+<!-- NAVBAR, Bootstrap Componente_01 -->
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -34,14 +35,14 @@
                             </a>
                             <a class="d-none d-md-block navbar-brand d-flex aligns-items-center ms-md-5" href="#">
                                 <img src="assets/img/viajes.svg" alt="viajes_chile_ico" width="45" class=" mb-2">
-                                <h4 class="d-inline-block mt-md-2 pt-md-4 ms-md-2">Viajes Chile tur</h4>
+                                <h4 class="d-inline-block mt-md-2 pt-md-4 ms-md-2">Viajes Chile X</h4>
                             </a>
                             <button class="navbar-toggler me-3 mt-1" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse mt-4 me-4" id="navbarNav">
+                            <div class="collapse navbar-collapse mt-3 me-4" id="navbarNav">
                                 <ul class="navbar-nav ms-auto fs-5">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Inicio</a>
@@ -63,7 +64,7 @@
             </div>
         </header>
 
-
+<!-- CAROUSEL, Componente_01 de Bootstrap JS -->
         <section id="carousel">
             <div class="container-fluid">
                 <div class="row carousel">
@@ -102,37 +103,32 @@
         </section>
 
 
-        <section id="quiensomos">
-            <div class="container-fluid pt-md-4 px-md-5">
+        <section id="quiensomos" class="d-none d-lg-block">
+            <div class="container-fluid pt-md-3 px-md-5">
                 <div class="row pt-md-3">
                     <div class="col text-center">
                         <h2 class="mb-md-1">¿QUIENES SOMOS?</h2>
                         <div class="linealarga mt-md-3 mb-md-2"></div>
                     </div>
                 </div>
+<!-- Uso de row-cols en sección quien somos/ Sistema de grilla Bootstrap -->
                 <div class="row row-cols-3 pt-md-2 px-md-5">
                     <div class="col">
                         <i class="fa-solid fa-plane fs-2"></i>
                         <p class="mt-md-2">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga quas, itaque quam incidunt consectetur quas maiores commodi deleniti facilis itaque ab atque molestias a! Nobis, molestiae vel. Eligendi itaque laboriosam eius voluptatum nisi dolorem similique aliquam!
-                            Illum, quam quidem! Consectetur inventore quaerat commodi harum quos delectus ipsam totam unde, veritatis provident alias magni officiis deserunt! Ad pariatur itaque quam incidunt consectetur quas maiores commodi beatae tempora!
-                            Pariatur nesciunt totam, molestiae ut id et amet cum tempore eos! Atque eius quae cupiditate consequuntur ducimus tenetur pariatur hic facilis asperiores. Cupiditate, asperiores? Error ratione pariatur unde veritatis accusantium?
+                            Somos una empresa internacional de viajes que nace y vive en Internet bajo la filosofía de ofrecer precios competitivos al mercado. Para ello, utilizamos el comercio electrónico, centrado en el sector de las agencias de viajes, vuelos, hoteles y alquiler de autos. Además de encontrar ofertas, nos esforzamos para que nuestros clientes estén siempre informados sobre ellas. Semanalmente les enviamos un e-mail personalizado según sus gustos, donde les sugerimos las propuestas más interesantes para que puedan comprarlas al instante de manera fácil, rápida y segura.
                         </p>
                     </div>
                     <div class="col  px-md-4">
                         <p class="mb-sm-2">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga quas, deleniti facilis itaque ab atque molestias a! Nobis, molestiae vel. Eligendi itaque laboriosam eius voluptatum nisi dolorem similique aliquam!
-                            Illum, quam quidem! Consectetur inventore quaerat commodi harum quos delectus ipsam totam unde, veritatis provident alias magni officiis itaque quam incidunt consectetur quas maiores commodi deserunt! Ad pariatur itaque quam incidunt consectetur quas maiores commodi beatae tempora!
-                            Pariatur nesciunt totam, molestiae ut id et amet cum tempore eos! Atque eius quae cupiditate consequuntur ducimus tenetur pariatur hic facilis asperiores. Cupiditate, asperiores? Error ratione pariatur unde veritatis accusantium?
+                            Si desea que su viaje resulte totalmente cómodo y con un servicio puntual y seguro, le ofrecemos nuestro Servicio Especial de Traslado. Nuestros Choferes son personas calificadas. No importa la hora a la que sea su viaje de ida o de regreso; nosotros lo trasladamos cómodamente hasta el aeropuerto, o bien lo recogemos en el aeropuerto para llevarlo hasta el punto final de su viaje. Contamos con servicio de alquiler de vehículos a nivel nacional e internacional con las mejores tarifas.
                         </p>
                         <i class="fa-solid fa-mountain fs-2"></i>
                     </div>
                     <div class="col  px-md-4">
                         <i class="fa-solid fa-route fs-2"></i>
                         <p class="mt-md-2">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga quas, deleniti facilis itaque ab atque molestias a! Nobis, molestiae vel. Eligendi itaque laboriosam eius voluptatum nisi dolorem similique aliquam!
-                            Illum, quam quidem! Consectetur inventore quaerat commodi harum quos delectus ipsam totam unde, veritatis provident alias magni officiis deserunt! Ad pariatur itaque quam incidunt consectetur quas maiores commodi beatae tempora!
-                            Pariatur nesciunt totam, molestiae ut id et amet cum tempore eos! Atque eius quae cupiditate consequuntur ducimus tenetur pariatur itaque quam incidunt consectetur quas maiores commodi hic facilis asperiores. Cupiditate, asperiores? Error ratione pariatur unde veritatis accusantium?
+                            Somos la única Agencia de Viajes que posee un exclusivo SALÓN VIP ubicado en el Aeropuerto Internacional, ofreciendo la mejor asistencia y atención al pasajero mientras espera su vuelo. Esta cómoda y amplia sala es ideal para descansar, leer, tomar algún refrigerio, además de realizar cambio de divisas, adquirir piezas de arte, y monedas de colección. Contamos con WIFI de alta velocidad y TV por cable, refrigerios, snacks, jugos, café, bebidas y una gran variedad de licores nacionales e internacionales.
                         </p>
                     </div>
                 </div>
@@ -142,48 +138,49 @@
 
 
         <section id="destacados">
-            <div class="container-fluid pt-md-3 px-md-5">
+            <div class="container-fluid pt-3 px-md-5">
 
-                <div class="row pt-md-2">
+                <div class="row pt-2 pt-lg-4">
                     <div class="col text-center">
-                        <h2 class="mb-md-1">DESTACADOS</h2>
+                        <h2 class="mb-0 mb-md-1">DESTACADOS</h2>
                         <div class="linealarga mt-md-3 mb-md-2"></div>
                     </div>
                 </div>
-
-                <div class="row row-cols-4 pt-md-3 px-md-5">
-                    <div class="col px-2 mb-4">
+<!-- Uso de row-cols en sección destacados/ Sistema de grilla Bootstrap -->
+<!-- CARDs, Bootstrap Componente_02 -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 pt-md-3 px-md-5 justify-content-center">
+                    <div class="col-10 col-sm-5 px-2 mb-4">
                         <div class="card">
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="foto_card1">
                             <div class="card-body">
-                                <h5 class="card-title">Parque Nacional Torres del Paine</h5>
-                                <p class="card-text">Ubicado en la región de la Patagonia chilena, es conocido por sus altas montañas, los témpanos de azul brillante que se aferran a los glaciares. Su sitio más conocido son las 3 torres de granito que le dan nombre al parque.</p>
+                                <h5 class="card-title">Parque Nacional Torres del Paine.</h5>
+                                <p class="card-text">Ubicado en la región de la Patagonia chilena, es conocido por sus altas montañas, los témpanos de azul brillante que se aferran a los glaciares. Su sitio más conocido son las 3 torres de granito que le dan su nombre al parque.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col px-2 mb-4">
+                    <div class="col-10 col-sm-5 col px-2 mb-4">
                         <div class="card">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="foto_card2">
                             <div class="card-body">
-                                <h5 class="card-title">Reserva Nacional Los Flamencos, Atacama</h5>
-                                <p class="card-tex mb-0">se ubica en la cuenca del salar de Atacama; en su interior se encuentran el Valle de la Luna el cual posee 4 senderos habilitados; y Aldea de Túlor, con un sendero que se recorre con guías de la comunidad local de Coyo.</p>
+                                <h5 class="card-title">Reserva Nacional Los Flamencos.</h5>
+                                <p class="card-text">Se ubica en la cuenca del salar de Atacama; en su interior se encuentran el Valle de la Luna el cual posee 4 senderos habilitados; y Aldea de Túlor, con un sendero que se recorre con guías de la comunidad local de Coyo.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col px-2 mb-4">
+                    <div class="col-10 col-sm-5 col px-2 mb-4">
                         <div class="card">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="foto_card3">
                             <div class="card-body">
-                                <h5 class="card-title">Laguna Chaxa, Salar de Atacama</h5>
-                                <p class="card-text">Situada a 2300 metros sobre el nivel del mar, es un escenario de espectacular belleza, donde encontrarás una laguna dividida en varios espejos de agua; siendo habitat natural de diversas comunidades de flamencos.</p>
+                                <h5 class="card-title">Laguna Chaxa, Salar de Atacama.</h5>
+                                <p class="card-text">Situada a 2.300 metros sobre el nivel del mar, es un escenario de espectacular belleza, donde encontrarás una laguna dividida en varios espejos de agua; siendo habitat natural de diversas comunidades de flamencos.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col px-2 mb-4">
+                    <div class="col-10 col-sm-5 col px-2 mb-4">
                         <div class="card">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="foto_card4">
                             <div class="card-body">
-                                <h5 class="card-title">Bosque valdiviano, Parque Oncol</h5>
+                                <h5 class="card-title">Bosque valdiviano, Parque Oncol.</h5>
                                 <p class="card-text">también llamado selva valdiviana, o bosque andino patagónico; es una ecorregión del centro-sur de Chile. Se caracteriza por tener bosques siempre verdes y un clima templado-lluvioso u oceánico únicos de América del Sur.</p>
                             </div>
                         </div>
@@ -204,9 +201,9 @@
                         <div class="linealarga"></div>
                     </div>
                 </div>
-
-                <div class="row row-cols-1 pt-md-2 px-md-5">
-                    <div class="col px-2 mb-4 fs-5">
+<!-- Forms y Submit Button, Bootstrap Componente_03 -->
+                <div class="row row-cols-1 pt-md-2 justify-content-center">
+                    <div class="col-10 col-md-11 mb-4 fs-5">
                         <form id="form_contacto">
 
                             <div class="">
@@ -224,7 +221,7 @@
                                 <textarea class="form-control" id="InputMensaje" rows="7"></textarea>
                             </div>
 
-                            <button type="submit" class="btn my-4 px-4 fw-bold">Enviar</button>
+                            <button id="enviarContacto" type="submit" class="btn my-4 px-4 fw-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar tu Solicitud de Contacto">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -238,15 +235,16 @@
                 <div class="row row-cols-2">
 
                     <div class="col pt-2 text-center">
-                        <h2 class="my-4 fw-light">VIAJES CHILE</h2>
+                        <h5 class="my-4 fw-light d-block d-sm-none">VIAJES CHILE</h5>
+                        <h2 class="my-4 fw-light d-none d-sm-block">VIAJES CHILE</h2>
                     </div>
 
                     <div class="col fs-1 text-center">
                         <p class="mb-0 py-4">
-                            <i class="ms-3 fa-brands fa-github-square"></i>
-                            <i class="ms-3 fa-brands fa-linkedin"></i>
-                            <i class="ms-3 fa-brands fa-twitter-square"></i>
-                            <i class="ms-3 fa-brands fa-facebook-square"></i>
+                            <a href="https://github.com/" target="_blank"><i class="ms-md-3 fa-brands fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/"  target="_blank"><i class="ms-md-3 fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/explore" target="_blank"><i class="ms-md-3 fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="ms-md-3 fa-brands fa-facebook-square"></i></a>
                         </p>
                     </div>
 

@@ -1,30 +1,22 @@
+//Código JavaScript para que funcione el ToolTip...
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
 $(function(){
-    
-    $("#enviarCorreo").click(function(){
-        alert("El correo fue enviado correctamente...");
+    // Código JavaScript para que aparezca la ALERT al hacer click en el botón ENVIAR del formulario Contacto... 
+    $("#enviarContacto").click(function(){
+        alert("Hemos Recibido tu Solicitud!!, Pronto nos pondremos en contacto contigo!");
     })
 
-    
-    $("h6").dblclick(function(){
-        $("h6").removeClass("txt_rojo");
-        $(this).addClass("txt_rojo");
-    })
-
-
+    // Código JavaScript para hacer Toggle a las CARDs de la página...
     $(".card-title").click(function(){
         $(".card").toggle();
         $(this).parents(".card").toggle();
-        //
-        $(".card-text").toggle();
-        $(".card-img-top").toggle();
     })
 
 
-    });
+});
 
 // END.

@@ -43,6 +43,26 @@
     background-color: #0ecaf1 !important;
 }
 
+.card-title {
+    min-height: 50px;
+}
+
+.card-text {
+    height: 145px;
+    overflow: hidden;
+}
+
+.tooltip-inner {
+    border: 2px solid orangered;
+    background: #FF9900 !important;
+    box-shadow: 7px 7px 23px orange;
+    color:Blue !important;
+    font-weight: 800;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: orangered !important;
+}
 
 
 /*
