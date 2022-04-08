@@ -6,6 +6,15 @@
     color: white !important;
     }
 
+
+/* Con la propiedad scroll-behavior y el valor smooth, apuntando a la etiqueta <html>,  
+   se hace SMOOTH SCROLL a lo largo de todo el documento al ser redirigido por una etiqueta <a> 
+   a cualquier sección de la página  */
+html {
+    scroll-behavior: smooth; /* SMOOTH Scroll */
+    }
+
+
 .gggg {
     border: 1px solid green;
     }
@@ -64,16 +73,4 @@
     border-bottom-color: orangered !important;
 }
 
-
-/*
-.navbar-toggler .navbar-toggler-icon{
-    width: 19px !important;
-    height: 19px !important;
-
-    
-#0ECAF1
-HEX
-#0ecaf1
-}
-*/
 
